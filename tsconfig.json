@@ -3,6 +3,10 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
-    }
-  }
+    },
+    "lib": ["ES2020", "DOM"]
+  },
+  "exclude": [
+    "src/components/HelloWorld.vue"
+  ]
 }
